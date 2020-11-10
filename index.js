@@ -1,7 +1,7 @@
 function reverseMyName(str) {
     // put your code here
 
-    return str
+    return str.split('').reverse().join('')
 }
 
 const Test = (fun, result) => console.log(reverseMyName(fun) === result)
